@@ -36,6 +36,9 @@
 $base-color: #3498db;
 $base-color-hover: darken($base-color, 10%);
 
+$light-base-color: lighten($base-color, 30%);
+$light-base-color-hover: darken($light-base-color, 10%);
+
 // Define background colors
 $background: #fff;
 $background-alt: #f2f2f5;
@@ -651,6 +654,16 @@ footer {
 
 .project-image {
     float: left;
+    min-height: 200px;
+
+    img {
+        width: 100%;
+        max-width: 300px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        position: absolute;
+    }
 }
 
 .project-info {
@@ -723,6 +736,32 @@ footer {
         margin: 0 0 15px 0;
         color: #fff;
         font-weight: 500;
+    }
+}
+
+#contact-table {
+    color: #fff;
+    display: inline-block;
+
+    a {
+        color: $light-base-color;
+
+        hover {
+            color: $light-base-color-hover;
+        }
+    }
+
+    td {
+        padding-right: 10px;
+    }
+
+    .left {
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .right {
+        text-align: left;
     }
 }
 
