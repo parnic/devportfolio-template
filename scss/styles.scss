@@ -33,7 +33,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #db3434;
 $base-color-hover: darken($base-color, 10%);
 
 $light-base-color: lighten($base-color, 30%);
@@ -650,6 +650,22 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+
+    a {
+        display: block;
+        color: $base-color;
+        padding: 10px;
+
+        &:hover {
+            color: $base-color-hover;
+            text-decoration: underline;
+        }
+
+        &:focus {
+            color: $base-color;
+            text-decoration: underline;
+        }
+    }
 }
 
 .project-image {
