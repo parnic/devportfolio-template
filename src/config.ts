@@ -13,18 +13,21 @@ export const siteConfig = {
   resume: "https://drive.google.com/file/d/1UeeItcOpd3r4sInz0D7bnllxHd_BYE-1/view",
   aboutMe:
     "I'm a problem solver. I have taken a winding career path through several different specialties, ultimately realizing that I'm primarily a generalist: someone who gets things done and goes where they are needed. I am passionate about improving developer experience and tooling, automating as many tedious or boring tasks as possible to ensure the team's output is high quality. " +
-    "I have a love of learning, engrossing myself in new technologies and creating side projects to explore how new programming languages, technologies, and services can be used to build robust, interesting applications. " +
-    "I've enjoyed each role I've had and have found fulfillment in helping others on the team accomplish their goals as well as improving the quality of the company's products and its productivity. " +
-    "My primary interest is self-improvement through staying abreast of the latest technologies and updates to languages and software development practices. I find great satisfaction in implementing code quality analysis and metric tools as well as automating and simplifying as many processes as possible.",
+    "I have a love of learning, engrossing myself in new technologies and creating side projects to explore how new programming languages, technologies, and services can be used to build robust, interesting applications. ",// +
+    // "I've enjoyed each role I've had and have found fulfillment in helping others on the team accomplish their goals as well as improving the quality of the company's products and its productivity. " +
+    // "My primary interest is self-improvement through staying abreast of the latest technologies and updates to languages and software development practices. I find great satisfaction in implementing code quality analysis and metric tools as well as automating and simplifying as many processes as possible.",
   skills: [
     "C++",
     "C#",
     "Go",
     "TypeScript",
+    "Dart/Flutter",
     "Python",
-    "Unreal Engine 4/5",
+    "Lua",
+    "Unreal Engine 3/4/5",
     "Unity",
     "Git",
+    "Perforce",
     "Linux",
     "iOS/Android",
   ],
@@ -102,7 +105,7 @@ export const siteConfig = {
     },
     {
       company: "Gearbox Software",
-      title: "Programmer/Technical Director",
+      title: "Programmer -> Technical Director",
       dateRange: "Jun 2006 - Oct 2017",
       bullets: [
         "Started as a gameplay programmer on Brothers in Arms: Hell's Highway",
