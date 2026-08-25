@@ -63,9 +63,17 @@ export const siteConfig = {
   ],
   experience: [
     {
+      company: "Gearbox Entertainment",
+      title: "Principal Software Engineer",
+      dateRange: "Aug 2026 - Present",
+      bullets: [
+        "Gameplay programmer",
+      ],
+    },
+    {
       company: "Tanium",
       title: "Staff Software Engineer",
-      dateRange: "Aug 2024 - Present",
+      dateRange: "Aug 2024 - Aug 2026",
       bullets: [
         "Backend development for Go web services supporting IT endpoint management software",
         "Native platform client/server development for endpoint management software",
